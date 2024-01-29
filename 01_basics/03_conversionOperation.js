@@ -9,7 +9,7 @@ let valueInNumber = Number(score)
 // console.log(valueInNumber);
 
 
-// Contersion of Number
+// Conversion of Number
 // "33" => 33
 // "33abc" => NaN
 // true => 1; false => 0
@@ -20,8 +20,8 @@ let valueInNumber = Number(score)
 // Boolean 
 let isLoggedIn = 1  // output = true
 
-let booleanIsLogedIn = Boolean(isLoggedIn)
-// console.log(booleanIsLogedIn);
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn);
 
 // conversion of Boolean
 // 1 => true; 0 => false
@@ -37,7 +37,7 @@ let booleanIsLogedIn = Boolean(isLoggedIn)
 //  conversion of string
 someNumber = 33
 
-let stringNumber = String(someNumber)
+let stringNumber = String(someNumber)   // type conversion
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
 
@@ -49,7 +49,7 @@ let stringNumber = String(someNumber)
 
 
 
-// ************************************ Operations***************************************
+// ************************************ Operations ***************************************
 
 let value = 3
 let negValue = -value

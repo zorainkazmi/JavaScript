@@ -31,7 +31,10 @@ const obj2 = {4: "d", 5: "e", 6: "f"}
 
 
 const obj3 = {...obj1, ...obj2}   // spread operator   => glass example
-// console.log(obj3);
+const obj4 = {...obj1, ...{1:"dd"}}   // spread operator   => glass example
+console.log("obj 3 is: ",obj3);
+console.log("obj 4 is: ",obj4);
+
 
 // value come from database
 const users = [
@@ -71,9 +74,12 @@ const course = {
 // course.courseInstructor
 
 // const {courseInstructor} = course
-const {courseInstructor: instructor} = course  // rename the key   
+
+const {courseInstructor: instructor, price: p, courseName: name} = course  // rename the key   
 // console.log(courseInstructor);
 console.log(instructor);
+console.log(p);
+console.log(name);
 
 //  API 
 

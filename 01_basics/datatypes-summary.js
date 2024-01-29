@@ -1,4 +1,4 @@
-// Primitive and Non Perimitive
+// Primitive and Non Primitive
 
 //  Primitive
 //  these are called by values 
@@ -13,8 +13,8 @@ const outsideTemp = null
 let userEmail;
 
 const id = Symbol("123")
-const anotherid = Symbol("123")
-// console.log(id === anotherid) // false
+const anotherId = Symbol("123")
+// console.log(id === anotherId) // false
 
 const bigNumber = 13453646457457548769707n
 
@@ -27,7 +27,7 @@ const bigNumber = 13453646457457548769707n
 
 // Array, Objects, Functions 
 
-const heros = ["ironman", "superman", "spiderman"]
+const heros = ["iron-man", "superman", "spider-man"]
 
 let myObj={
     name: "Zain",
@@ -59,7 +59,7 @@ const myFunction = function(){
 
 //  Note: If you want to master js then master 2 thing Object and web-event / browser-event; 
 
-// Is JavaScript Dynamic-type languange or Static-type language?
+// Is JavaScript Dynamic-type language or Static-type language?
 
 // ___________________________________________________________________________________________________________________________
 
@@ -79,7 +79,7 @@ console.log(myanothername);
 
 // ___________________________________________________________________________________________________________________________
 
-// In Heap memory -> We have a pointer/referance to orignal variable that we declared, => changes occurs in orignal variable
+// In Heap memory -> We have a pointer/reference to original variable that we declared, => changes occurs in original variable
 // Example:-
 let userOne = {
     email: "zee@google.com",
