@@ -41,6 +41,10 @@ const chai = () => {
     }
 
 // chai()
+
+
+// * Implicit return Explicit return
+
 // explicit return
 const addTwo = (num1, num2) => {
     return num1 + num2;

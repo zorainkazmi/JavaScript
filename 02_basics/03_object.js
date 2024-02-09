@@ -16,6 +16,7 @@ const JsUser = {
     isLoggedIn: false,
     lastLoginDay: ["monday", "thursday"]
 }
+// console.log(JsUser);
 // myArray = ["h", "i"]
 // myArr[0]; myArr[1]
 
@@ -30,6 +31,7 @@ const JsUser = {
 // console.log(JsUser.mySym) // Symbol is not a string so it will give error if we try to access like this
 // console.log(typeof JsUser.mySym)  // returns String
 // console.log(JsUser[mySym]);  
+// console.log(typeof [mySym]);     
 
 
 JsUser.email = "zorainkazmi@gmail.com" // change object value
